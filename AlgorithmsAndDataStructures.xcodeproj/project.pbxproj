@@ -12,6 +12,7 @@
 		40BF90A42C44BFB50043C22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BF90A32C44BFB50043C22C /* Assets.xcassets */; };
 		40BF90A72C44BFB50043C22C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BF90A62C44BFB50043C22C /* Preview Assets.xcassets */; };
 		40BF90AF2C44BFDB0043C22C /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90AE2C44BFDB0043C22C /* LinkedList.swift */; };
+		40BF90B22C44C0F10043C22C /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90B12C44C0F10043C22C /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		40BF90A62C44BFB50043C22C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40BF90AE2C44BFDB0043C22C /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		40BF90B02C44C01E0043C22C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		40BF90B12C44C0F10043C22C /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				40BF90AD2C44BFD10043C22C /* App */,
 				40BF90B02C44C01E0043C22C /* MyPlayground.playground */,
 				40BF90AE2C44BFDB0043C22C /* LinkedList.swift */,
+				40BF90B12C44C0F10043C22C /* Stack.swift */,
 				40BF90A52C44BFB50043C22C /* Preview Content */,
 			);
 			path = AlgorithmsAndDataStructures;
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BF90B22C44C0F10043C22C /* Stack.swift in Sources */,
 				40BF90AF2C44BFDB0043C22C /* LinkedList.swift in Sources */,
 				40BF90A22C44BFB40043C22C /* ContentView.swift in Sources */,
 				40BF90A02C44BFB40043C22C /* AlgorithmsAndDataStructuresApp.swift in Sources */,
