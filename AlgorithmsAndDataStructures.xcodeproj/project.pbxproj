@@ -17,6 +17,7 @@
 		40BF90B82C4558E40043C22C /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90B72C4558E40043C22C /* BinarySearch.swift */; };
 		40BF90BB2C45671D0043C22C /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90BA2C45671D0043C22C /* Fibonacci.swift */; };
 		40BF90BE2C497F620043C22C /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90BD2C497F620043C22C /* QuickSort.swift */; };
+		40BF90C02C49B7110043C22C /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90BF2C49B7110043C22C /* MergeSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		40BF90B72C4558E40043C22C /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		40BF90BA2C45671D0043C22C /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		40BF90BD2C497F620043C22C /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		40BF90BF2C49B7110043C22C /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				40BF90BD2C497F620043C22C /* QuickSort.swift */,
+				40BF90BF2C49B7110043C22C /* MergeSort.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				40BF90BB2C45671D0043C22C /* Fibonacci.swift in Sources */,
 				40BF90AF2C44BFDB0043C22C /* LinkedList.swift in Sources */,
 				40BF90A22C44BFB40043C22C /* ContentView.swift in Sources */,
+				40BF90C02C49B7110043C22C /* MergeSort.swift in Sources */,
 				40BF90A02C44BFB40043C22C /* AlgorithmsAndDataStructuresApp.swift in Sources */,
 				40BF90BE2C497F620043C22C /* QuickSort.swift in Sources */,
 			);
