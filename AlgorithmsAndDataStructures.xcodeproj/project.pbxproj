@@ -16,6 +16,7 @@
 		40BF90B42C4556F50043C22C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90B32C4556F50043C22C /* Queue.swift */; };
 		40BF90B82C4558E40043C22C /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90B72C4558E40043C22C /* BinarySearch.swift */; };
 		40BF90BB2C45671D0043C22C /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90BA2C45671D0043C22C /* Fibonacci.swift */; };
+		40BF90BE2C497F620043C22C /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90BD2C497F620043C22C /* QuickSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		40BF90B32C4556F50043C22C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		40BF90B72C4558E40043C22C /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		40BF90BA2C45671D0043C22C /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		40BF90BD2C497F620043C22C /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				40BF90B02C44C01E0043C22C /* MyPlayground.playground */,
 				40BF90B52C4558BD0043C22C /* List Collections */,
 				40BF90B62C4558D00043C22C /* Search */,
+				40BF90BC2C497EF50043C22C /* Sorting */,
 				40BF90B92C4566F50043C22C /* Recursion */,
 				40BF90A52C44BFB50043C22C /* Preview Content */,
 			);
@@ -114,6 +117,14 @@
 				40BF90BA2C45671D0043C22C /* Fibonacci.swift */,
 			);
 			path = Recursion;
+			sourceTree = "<group>";
+		};
+		40BF90BC2C497EF50043C22C /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				40BF90BD2C497F620043C22C /* QuickSort.swift */,
+			);
+			path = Sorting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 				40BF90AF2C44BFDB0043C22C /* LinkedList.swift in Sources */,
 				40BF90A22C44BFB40043C22C /* ContentView.swift in Sources */,
 				40BF90A02C44BFB40043C22C /* AlgorithmsAndDataStructuresApp.swift in Sources */,
+				40BF90BE2C497F620043C22C /* QuickSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

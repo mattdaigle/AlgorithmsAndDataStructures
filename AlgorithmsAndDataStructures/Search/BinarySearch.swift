@@ -7,24 +7,21 @@
 
 import Foundation
 
-extension Array where Element.Type == Int.Type {
-    
-    func binarySearch(indexOf value: Int) -> Int? {
-        var lowIndex = 0
-        var highIndex = count - 1
+func binarySearch(_ input: [Int], indexOf value: Int) -> Int? {
+    var lowIndex = 0
+    var highIndex = input.count - 1
 
-        while lowIndex <= highIndex {
-            let midIndex = (lowIndex + highIndex) / 2
+    while lowIndex <= highIndex {
+        let midIndex = (lowIndex + highIndex) / 2
 
-            if value == self[midIndex] {
-                return midIndex
-            } else if value > self[midIndex] {
-                lowIndex = midIndex + 1
-            } else {
-                highIndex = midIndex - 1
-            }
+        if value == input[midIndex] {
+            return midIndex
+        } else if value > input[midIndex] {
+            lowIndex = midIndex + 1
+        } else {
+            highIndex = midIndex - 1
         }
-
-        return nil
     }
+
+    return nil
 }
