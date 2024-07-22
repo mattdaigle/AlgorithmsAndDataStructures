@@ -7,17 +7,17 @@
 
 import Foundation
 
-class Node {
-
-    var value: Int
-    var next: Node?
-
-    init(value: Int) {
-        self.value = value
-    }
-}
-
 class LinkedList {
+    
+    class Node {
+
+        var value: Int
+        var next: Node?
+
+        init(value: Int) {
+            self.value = value
+        }
+    }
 
     private var head: Node?
 

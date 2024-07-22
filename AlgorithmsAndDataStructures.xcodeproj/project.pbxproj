@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40B32E5C2C4EDBEC00A204BB /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B32E5B2C4EDBEC00A204BB /* HashTable.swift */; };
+		40B32E602C4EE39B00A204BB /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B32E5F2C4EE39B00A204BB /* BinaryTree.swift */; };
 		40BF90A02C44BFB40043C22C /* AlgorithmsAndDataStructuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF909F2C44BFB40043C22C /* AlgorithmsAndDataStructuresApp.swift */; };
 		40BF90A22C44BFB40043C22C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90A12C44BFB40043C22C /* ContentView.swift */; };
 		40BF90A42C44BFB50043C22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BF90A32C44BFB50043C22C /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		40B32E5B2C4EDBEC00A204BB /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
+		40B32E5F2C4EE39B00A204BB /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		40BF909C2C44BFB40043C22C /* AlgorithmsAndDataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmsAndDataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BF909F2C44BFB40043C22C /* AlgorithmsAndDataStructuresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsAndDataStructuresApp.swift; sourceTree = "<group>"; };
 		40BF90A12C44BFB40043C22C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 			path = "Maps and Hashing";
 			sourceTree = "<group>";
 		};
+		40B32E5D2C4EE38600A204BB /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				40B32E5F2C4EE39B00A204BB /* BinaryTree.swift */,
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
 		40BF90932C44BFB40043C22C = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +92,7 @@
 				40BF90B62C4558D00043C22C /* Searching */,
 				40BF90BC2C497EF50043C22C /* Sorting */,
 				40B32E5A2C4EDB8900A204BB /* Maps and Hashing */,
+				40B32E5D2C4EE38600A204BB /* Trees */,
 				40BF90B92C4566F50043C22C /* Recursion */,
 				40BF90A52C44BFB50043C22C /* Preview Content */,
 			);
@@ -217,6 +228,7 @@
 				40BF90B82C4558E40043C22C /* BinarySearch.swift in Sources */,
 				40BF90BB2C45671D0043C22C /* Fibonacci.swift in Sources */,
 				40BF90AF2C44BFDB0043C22C /* LinkedList.swift in Sources */,
+				40B32E602C4EE39B00A204BB /* BinaryTree.swift in Sources */,
 				40BF90A22C44BFB40043C22C /* ContentView.swift in Sources */,
 				40BF90C02C49B7110043C22C /* MergeSort.swift in Sources */,
 				40BF90A02C44BFB40043C22C /* AlgorithmsAndDataStructuresApp.swift in Sources */,
