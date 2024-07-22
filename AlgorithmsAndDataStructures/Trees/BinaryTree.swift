@@ -26,7 +26,7 @@ class BinaryTree {
         self.root = Node(value: rootValue)
     }
 
-    // Return true if the value is in the tree, otherwise return false
+    // Return true if the value is in the tree, otherwise return false.
     func search(for value: Int) -> Bool {
         preorderSearch(root, for: value)
     }
@@ -50,7 +50,7 @@ class BinaryTree {
         return true
     }
 
-    // Helper method - use to construct a string representing the preordered nodes
+    // Helper method - use to construct a string representing the preordered nodes.
     private func preorderPrint(_ node: Node?, traverse: String) -> String? {
         guard let node else {
             return traverse
