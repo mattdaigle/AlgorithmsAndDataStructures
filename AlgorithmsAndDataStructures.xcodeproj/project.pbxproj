@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4000EB3C2C5728E4005A1D2A /* HighlightSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4000EB3B2C5728E4005A1D2A /* HighlightSwift */; };
+		403018C02C55EAB000805FEE /* CodeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403018BF2C55EAB000805FEE /* CodeDetailsView.swift */; };
+		403018C32C55F56A00805FEE /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403018C22C55F56A00805FEE /* Code.swift */; };
+		403018C52C56004200805FEE /* DraculaTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403018C42C56004200805FEE /* DraculaTheme.swift */; };
+		403018EC2C56D1A500805FEE /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403018E92C56D0F600805FEE /* Graph.swift */; };
 		40B32E5C2C4EDBEC00A204BB /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B32E5B2C4EDBEC00A204BB /* HashTable.swift */; };
 		40B32E602C4EE39B00A204BB /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B32E5F2C4EE39B00A204BB /* BinaryTree.swift */; };
 		40B32E622C4F118D00A204BB /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B32E612C4F118D00A204BB /* BinarySearchTree.swift */; };
@@ -21,9 +26,17 @@
 		40BF90BB2C45671D0043C22C /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90BA2C45671D0043C22C /* Fibonacci.swift */; };
 		40BF90BE2C497F620043C22C /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90BD2C497F620043C22C /* QuickSort.swift */; };
 		40BF90C02C49B7110043C22C /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF90BF2C49B7110043C22C /* MergeSort.swift */; };
+		40C67B802C56F28000E14E7E /* GraphRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C67B7F2C56F28000E14E7E /* GraphRepresentation.swift */; };
+		40C67B822C56F35900E14E7E /* GraphBFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C67B812C56F35900E14E7E /* GraphBFS.swift */; };
+		40C67B842C56F38400E14E7E /* GraphDFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C67B832C56F38400E14E7E /* GraphDFS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4000EB392C572624005A1D2A /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		403018BF2C55EAB000805FEE /* CodeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDetailsView.swift; sourceTree = "<group>"; };
+		403018C22C55F56A00805FEE /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
+		403018C42C56004200805FEE /* DraculaTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraculaTheme.swift; sourceTree = "<group>"; };
+		403018E92C56D0F600805FEE /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		40B32E5B2C4EDBEC00A204BB /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
 		40B32E5F2C4EE39B00A204BB /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		40B32E612C4F118D00A204BB /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
@@ -33,13 +46,15 @@
 		40BF90A32C44BFB50043C22C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40BF90A62C44BFB50043C22C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40BF90AE2C44BFDB0043C22C /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
-		40BF90B02C44C01E0043C22C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		40BF90B12C44C0F10043C22C /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		40BF90B32C4556F50043C22C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		40BF90B72C4558E40043C22C /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		40BF90BA2C45671D0043C22C /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		40BF90BD2C497F620043C22C /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		40BF90BF2C49B7110043C22C /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		40C67B7F2C56F28000E14E7E /* GraphRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRepresentation.swift; sourceTree = "<group>"; };
+		40C67B812C56F35900E14E7E /* GraphBFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphBFS.swift; sourceTree = "<group>"; };
+		40C67B832C56F38400E14E7E /* GraphDFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDFS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,12 +62,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4000EB3C2C5728E4005A1D2A /* HighlightSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		403018EE2C56D1CD00805FEE /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				403018E92C56D0F600805FEE /* Graph.swift */,
+				40C67B812C56F35900E14E7E /* GraphBFS.swift */,
+				40C67B832C56F38400E14E7E /* GraphDFS.swift */,
+				40C67B7F2C56F28000E14E7E /* GraphRepresentation.swift */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
 		40B32E5A2C4EDB8900A204BB /* Maps and Hashing */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,13 +116,14 @@
 		40BF909E2C44BFB40043C22C /* AlgorithmsAndDataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				4000EB392C572624005A1D2A /* MyPlayground.playground */,
 				40BF90AD2C44BFD10043C22C /* App */,
-				40BF90B02C44C01E0043C22C /* MyPlayground.playground */,
-				40BF90B52C4558BD0043C22C /* List Collections */,
+				40BF90B52C4558BD0043C22C /* Collections */,
 				40BF90B62C4558D00043C22C /* Searching */,
 				40BF90BC2C497EF50043C22C /* Sorting */,
 				40B32E5A2C4EDB8900A204BB /* Maps and Hashing */,
 				40B32E5D2C4EE38600A204BB /* Trees */,
+				403018EE2C56D1CD00805FEE /* Graphs */,
 				40BF90B92C4566F50043C22C /* Recursion */,
 				40BF90A52C44BFB50043C22C /* Preview Content */,
 			);
@@ -115,19 +143,22 @@
 			children = (
 				40BF909F2C44BFB40043C22C /* AlgorithmsAndDataStructuresApp.swift */,
 				40BF90A12C44BFB40043C22C /* ContentView.swift */,
+				403018BF2C55EAB000805FEE /* CodeDetailsView.swift */,
+				403018C22C55F56A00805FEE /* Code.swift */,
+				403018C42C56004200805FEE /* DraculaTheme.swift */,
 				40BF90A32C44BFB50043C22C /* Assets.xcassets */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		40BF90B52C4558BD0043C22C /* List Collections */ = {
+		40BF90B52C4558BD0043C22C /* Collections */ = {
 			isa = PBXGroup;
 			children = (
 				40BF90AE2C44BFDB0043C22C /* LinkedList.swift */,
 				40BF90B12C44C0F10043C22C /* Stack.swift */,
 				40BF90B32C4556F50043C22C /* Queue.swift */,
 			);
-			path = "List Collections";
+			path = Collections;
 			sourceTree = "<group>";
 		};
 		40BF90B62C4558D00043C22C /* Searching */ = {
@@ -171,6 +202,9 @@
 			dependencies = (
 			);
 			name = AlgorithmsAndDataStructures;
+			packageProductDependencies = (
+				4000EB3B2C5728E4005A1D2A /* HighlightSwift */,
+			);
 			productName = AlgorithmsAndDataStructures;
 			productReference = 40BF909C2C44BFB40043C22C /* AlgorithmsAndDataStructures.app */;
 			productType = "com.apple.product-type.application";
@@ -199,6 +233,9 @@
 				Base,
 			);
 			mainGroup = 40BF90932C44BFB40043C22C;
+			packageReferences = (
+				4000EB3A2C5728E4005A1D2A /* XCRemoteSwiftPackageReference "highlightswift" */,
+			);
 			productRefGroup = 40BF909D2C44BFB40043C22C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -230,12 +267,19 @@
 				40B32E5C2C4EDBEC00A204BB /* HashTable.swift in Sources */,
 				40BF90B82C4558E40043C22C /* BinarySearch.swift in Sources */,
 				40BF90BB2C45671D0043C22C /* Fibonacci.swift in Sources */,
+				403018C52C56004200805FEE /* DraculaTheme.swift in Sources */,
+				40C67B802C56F28000E14E7E /* GraphRepresentation.swift in Sources */,
 				40BF90AF2C44BFDB0043C22C /* LinkedList.swift in Sources */,
 				40B32E602C4EE39B00A204BB /* BinaryTree.swift in Sources */,
+				403018EC2C56D1A500805FEE /* Graph.swift in Sources */,
+				40C67B822C56F35900E14E7E /* GraphBFS.swift in Sources */,
+				403018C02C55EAB000805FEE /* CodeDetailsView.swift in Sources */,
+				40C67B842C56F38400E14E7E /* GraphDFS.swift in Sources */,
 				40BF90A22C44BFB40043C22C /* ContentView.swift in Sources */,
 				40B32E622C4F118D00A204BB /* BinarySearchTree.swift in Sources */,
 				40BF90C02C49B7110043C22C /* MergeSort.swift in Sources */,
 				40BF90A02C44BFB40043C22C /* AlgorithmsAndDataStructuresApp.swift in Sources */,
+				403018C32C55F56A00805FEE /* Code.swift in Sources */,
 				40BF90BE2C497F620043C22C /* QuickSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +422,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,6 +430,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.daigle.AlgorithmsAndDataStructures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -407,6 +456,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -414,6 +464,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.daigle.AlgorithmsAndDataStructures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,6 +496,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4000EB3A2C5728E4005A1D2A /* XCRemoteSwiftPackageReference "highlightswift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/appstefan/highlightswift";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4000EB3B2C5728E4005A1D2A /* HighlightSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4000EB3A2C5728E4005A1D2A /* XCRemoteSwiftPackageReference "highlightswift" */;
+			productName = HighlightSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 40BF90942C44BFB40043C22C /* Project object */;
 }
